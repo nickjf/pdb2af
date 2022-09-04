@@ -1,5 +1,5 @@
 
-# pdb2af v0.0.19
+# pdb2af v0.0.20
 
 pdb2af uses SIFTS (https://www.ebi.ac.uk/pdbe/docs/sifts/) to download protein structures from the AlphaFold Protein Structure Database that overlap with PDB structures.
 
@@ -18,7 +18,8 @@ pdb2af reads in a text file with PDB IDs. You need to be connected to the intern
 
 Options:
 
-`-i` text file with list of PDB IDs
+`-i` text file with list of PDB IDs  
+
 `-u` update the SIFTS mapping between PDB IDs and UniProt accession numbers
 
 

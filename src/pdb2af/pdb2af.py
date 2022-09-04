@@ -12,7 +12,7 @@ from importlib import resources
 from pdbtools import pdb_selres
 
 sys.tracebacklimit = 0
-pdb2af_version = "0.0.19"
+pdb2af_version = "0.0.20"
 
 def renumber_atoms(pdb,out):
     pdb = open(pdb,'r')
